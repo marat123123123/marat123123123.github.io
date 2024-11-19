@@ -7,11 +7,9 @@ position:relative;
   }
 
   .circle--large {
-    width: 25.96px;
-    height: 25.92px;
+    width: 24px;
+    height: 24px;
     background-color: #3498db;
-    top: 33.08px;
-    left: 284.04px;
     opacity: 1; 
     z-index: 1;
   }
