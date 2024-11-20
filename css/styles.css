@@ -245,9 +245,26 @@ color:var(--gray);
       font-weight: 400;
       line-height: 23.08px;
            }
+   .sidebar__title{
+font-size: 24px;
+font-weight: 450;
+line-height: 30.77px;
+   }
+  .sidebar__post-title{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.08px;
+  }
+ .sidebar__post-date
+  {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.08px;
    
+    }
+   .sidebar__post-line
 
-
+{border: 1px solid #2F22221A}
         
 
 
