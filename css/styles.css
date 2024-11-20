@@ -28,6 +28,36 @@ body {
   background-position: center;
   background-repeat: no-repeat; 
 }
+.header>div{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+}
+a{ transition: color 0.3s, text-decoration 0.3s;}
+.nav{color:var(--black);}
+.nav--header{display: flex;
+      width: 524px;
+      justify-content: space-between;}
+  .nav__list{    display: flex;
+        justify-content: space-around;   
+        flex-grow: 1;}    
+        .nav__link  { 
+          font-size: 18px;
+font-weight: 400;
+line-height: 23.08px;
+        }
+        .nav__link:hover{
+          color:var(--cornflower);
+          text-decoration:underline;
+        }
+.phone--header a{color:var(--cornflower);
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 23.08px;
+  text-decoration:none;
+  }
+
+.nav a{text-decoration:none;}
 .logo{
   position:relative;
   width: 50px;
