@@ -34,7 +34,7 @@ body {
 justify-content: space-between;
 }
 a{ transition: color 0.3s, text-decoration 0.3s;}
-.nav{color:var(--black);}
+.nav a{color:var(--black);}
 .nav--header{display: flex;
       width: 524px;
       justify-content: space-between;}
