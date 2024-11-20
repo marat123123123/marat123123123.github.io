@@ -245,15 +245,19 @@ color:var(--gray);
       font-weight: 400;
       line-height: 23.08px;
            }
+           .sidebar{margin:40px;}
    .sidebar__title{
 font-size: 24px;
 font-weight: 450;
 line-height: 30.77px;
+margin-bottom:20px;
    }
+   .sidebar__post{margin:10px 0;}
   .sidebar__post-title{
   font-size: 18px;
   font-weight: 400;
   line-height: 23.08px;
+  margin:10px 0;
   }
  .sidebar__post-date
   {
@@ -263,8 +267,9 @@ line-height: 30.77px;
    
     }
    .sidebar__post-line
-
-{border: 1px solid #2F22221A}
+{border: 1px solid #2F22221A;
+  margin:10px 0;
+}
         
 
 
