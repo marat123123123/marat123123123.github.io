@@ -7,15 +7,15 @@ position:relative;
   }
 
   .circle--large {
-    width: 24px;
-    height: 24px;
+    width: 48px;
+    height: 48px;
     background-color: #3498db;
     opacity: 1; 
     z-index: 1;
   }
     .circle--small {
-    width: 15px;
-    height: 15px;
+    width: 26px;
+    height: 26px;
     background-color: #fff; 
     top: 40px; 
     left: 290px;
