@@ -17,11 +17,12 @@ body {
   max-width: 1400px;
   width: 100%;
   margin: 0 auto;
- 
-}
+ }
+ .wrapper{display:flex;}
 .main{background-color: var(--gray-light);}
 .banner {
   width: 100%; 
+  height:300px;
   background-image: url('../images/banner.jpg'); 
   background-size: cover; 
   background-position: center;
@@ -167,7 +168,15 @@ color:var(--gray);
          .news__item--color  .news__date{
           color:var(--white);
          }
+        
+         .news__item--color  .news__title{
+          color:var(--white);
+         } 
+
          .news__item--picture .news__date{
+          color:var(--white);
+         }
+         .news__item--picture .news__title{
           color:var(--white);
          }
        .news__title{
