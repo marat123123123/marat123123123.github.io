@@ -218,8 +218,8 @@ color:var(--gray);
          .news__item--color  .news__date{
           color:var(--white);
          }
-         .news__item--color .news__title{margin:20px 0;}
-         
+         .news__item--text .news__title{margin:20px 0;}
+
          .news__item--color  .news__title{
           color:var(--white);
           margin-top:80px;
