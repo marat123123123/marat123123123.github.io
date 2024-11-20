@@ -116,6 +116,7 @@ body {
       }
 
      .news__item{
+      padding:40px;
       border-radius: 20px;
       display:flex;
       flex-direction:column;
@@ -152,21 +153,21 @@ body {
       color:var(--cornflower);
          }  
          
-         .news__category.news__category--color{
+        .news__item--color .news__category {
 color:var(--white);
 background:var(--cornflower-extra) ;
          }
-   .news__category.news__category--picture{
+         .news__item--picture .news__category {
     color:var(--white);
     background:var(--white-light);
          }
          .news__date{
 color:var(--gray);
          }
-         .news__date.news__date--color{
+         .news__item--color  .news__date{
           color:var(--white);
          }
-         .news__date.news__date--picture{
+         .news__item--picture .news__date{
           color:var(--white);
          }
        .news__title{
