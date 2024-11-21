@@ -81,6 +81,9 @@ a {
 .nav a {
   text-decoration: none;
 }
+.sidebar__form-input:focus{
+  border: 1.5px solid #2F2222;
+}
 .logo {
   position: relative;
   width: 50px;
@@ -449,9 +452,7 @@ color:var(--cornflower);
     cursor: pointer;
     transition:all 0.3s;
   }
-  .sidebar__form-input:focus{
-    border: 1.5px solid #2F2222;
-  }
+ 
 }
 
 @media (max-width: 1024px) {
