@@ -512,6 +512,9 @@ color:var(--cornflower);
   .mobile__button {
     display: block;
   }
+  .mobile__button img{
+    max-width:48px;
+  }
   .news__item {
     padding: 25px;
   }
